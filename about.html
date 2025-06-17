@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Revanth Gundala</title>
+    <style>
+      body {
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      header h1 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #000;
+      }
+      .tagline {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 30px;
+        font-style: italic; 
+        font-weight: normal;
+      }
+      nav {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 15px 0;
+        margin-bottom: 40px;
+      }
+      nav a {
+        color: #333;
+        text-decoration: none;
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+      nav a:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+      .profile {
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+      }
+      .profile-photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        flex-shrink: 0;
+      }
+      .profile-content {
+        flex: 1;
+      }
+      .intro {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 25px;
+        line-height: 1.5;
+        color: #000;
+      }
+      .bio {
+        margin-bottom: 20px;
+        line-height: 1.6;
+        font-weight: normal;
+      }
+      .rapid-fire {
+        margin: 30px 0;
+        padding: 25px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        border-left: 4px solid #333;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+      }
+      .rapid-fire h3 {
+        margin: 0 0 20px 0;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #000;
+        grid-column: 1 / -1;
+      }
+      .rapid-fire .qa-item {
+        margin-bottom: 0;
+        font-size: 1.1rem;
+      }
+      .rapid-fire .question {
+        font-weight: bold;
+        color: #333;
+        display: block;
+        text-decoration: underline;
+        margin-bottom: 5px;
+      }
+      .rapid-fire .answer {
+        color: #555;
+        display: block;
+        line-height: 1.4;
+        font-size: 0.9rem;
+      }
+      .rapid-fire ul.answer {
+        list-style: none !important;
+        padding: 0;
+        margin: 0;
+      }
+      .rapid-fire ul.answer li {
+        margin-bottom: 5px;
+        list-style: none !important;
+      }
+      .links {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .links a {
+        color: #333;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 8px 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 0.85rem;
+      }
+      .links a:hover {
+        background-color: #f5f5f5;
+        text-decoration: none;
+      }
+      @media (max-width: 768px) {
+        .profile {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+        .profile-photo {
+          width: 150px;
+          height: 150px;
+        }
+        .links {
+          justify-content: center;
+        }
+      }
+    </style>
+    <script src="shared.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1></h1>
+      <p class="tagline"></p>
+      <nav>
+        <a href="index.html">Blog</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="profile">
+        <img src="revanth.jpg" alt="Revanth Gundala" class="profile-photo">
+        <div class="profile-content">
+          <p class="intro">
+            Hi, I'm Revanth... (reh-von-th)
+          </p>
+          <p class="bio">
+            I'm a new grad from ASU looking to do cool stuff in AI. Did a couple internships, contributed to some open source projects, 
+            and built some random projects along the way.
+          </p>
+          <p class="bio">
+            When I'm not coding, you'll find me listening to podcasts, reading, gaming, 
+            or practicing Brazilian Jiu-Jitsu.
+          </p>
+
+          <div class="links">
+            <a href="https://github.com/revanthgundala" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/revanth-gundala-127aab21a" target="_blank">LinkedIn</a>
+            <a href="https://rgundal2.substack.com/" target="_blank">Substack</a>
+            <a href="https://x.com/revanth_gundala" target="_blank">X</a>
+            <a href="https://storage.googleapis.com/simplify-resumes/b260d71b-520c-4cf1-9e6e-37b9ad2d609f/4d2efb7d-821e-4507-87f5-b97536ebaa78/1750176305.pdf?Expires=1750781106&GoogleAccessId=gcs-signing-service-account%40mifflin-backend.iam.gserviceaccount.com&Signature=MGZKgp3BZHjDICaY5ZdOAjAFDGsODwKwucOFLmfnTxU1YvIw8ksuhBRtSSJxmGTXJ98rhT12ow9pbc0ToRIz78C8SkALB%2BuYmpdYAPdLBZGWqpCA6lPemm5L5Y%2Fwpyh%2F22fnz3wmwxx8fnh3b%2BjeJ5CP%2BYgU2OXKlVyUEU4231cLOP%2BD6DoIgYiyj6iTbDnW2di2tESUpm95aOk9GdxHwkKDGFSoCsnFy0CZpPjW2eJJhxnsKIGcJWdALcRARiLgdj%2FfgFB30mCPj%2FCC2yv3zEsk4JaxMXmJ4SWgN74fHQ0xG5%2FnMvQwF1RydobB5G5%2FsquqhNTHBjPcfbHZ1fhb%2BA%3D%3D" target="_blank">CV</a>
+          </div>
+          
+          <div class="rapid-fire">
+            <h3>Rapid Fire ⚡</h3>
+            <div class="qa-item">
+              <span class="question">Top Movies:</span> 
+              <span class="answer">Interstellar, Oppenheimer, Ready Player One</span>
+            </div>
+            <div class="qa-item">
+              <span class="question">Currently reading:</span> 
+              <span class="answer">Harry Potter and the Methods of Rationality, Shoe Dog</span>
+            </div>
+            <div class="qa-item">
+              <span class="question">Best food:</span> 
+              <span class="answer">Mediterrean, Thai, Indian, Sushi</span>
+            </div>
+            <div class="qa-item">
+              <span class="question">Favorite games:</span> 
+              <span class="answer">League of Legends, Minecraft, Toontown</span>
+            </div>
+            <div class="qa-item">
+              <span class="question">Keyboard:</span> 
+              <span class="answer">Glove 80</span>
+            </div>
+            <div class="qa-item">
+              <span class="question">To Do List:</span> 
+              <ul class="answer">
+                  <li>1. Figure out how to win</li>
+                  <li>2. Win</li>
+                  <li>3. Die in VR</li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </main>
+  </body>
+</html> 
