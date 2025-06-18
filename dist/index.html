@@ -3,70 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Personal Website</title>
+    <title>Revanth Gundala</title>
     <style>
-      body { 
-        font-family: sans-serif;
-        margin: 20px;
-        line-height: 1.2;
+      body {
+        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        line-height: 1.6;
+        color: #333;
       }
-      img {
-        width: 150px;
-        height: 150px;
+      header h1 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #000;
+      }
+      .tagline {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 30px;
+        font-style: italic;
+        font-weight: normal;
+      }
+      nav {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding: 15px 0;
+        margin-bottom: 40px;
+      }
+      nav a {
+        color: #333;
+        text-decoration: none;
+        margin-right: 30px;
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+      nav a:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+      .loading {
+        color: #999;
+        font-style: italic;
+        text-align: center;
+        padding: 40px 0;
+      }
+      footer {
+        border-top: 1px solid #eee;
+        padding: 20px 0;
+        margin-top: 40px;
+        text-align: center;
+        color: #666;
+        font-size: 0.8rem;
+        font-style: italic;
       }
     </style>
+    <script src="shared.js"></script>
   </head>
   <body>
-    <img src="/assets/revanth-DELebbE_.jpg" alt="Profile Picture">
-    <h1>Revanth Gundala</h1>
-    
-    <p>
-      <a href="https://github.com/RevanthGundala">GitHub</a> |
-      <a href="https://www.linkedin.com/in/revanth-gundala-127aab21a">LinkedIn</a> |
-      <a href="https://medium.com/@revanth.gundala">Medium</a>
-    </p>
-    
-    <h2>About Me</h2>
-    <p>I'm a passionate software developer with a love for creating clean, efficient solutions.</p>
+    <header>
+      <h1></h1>
+      <p class="tagline"></p>
+      <nav>
+        <a href="index.html">Blog</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
 
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <strong>3D Home Viewer</strong> - A photorealistic 3D environment generator that transforms 2D images into immersive 3D spaces using AI-powered Gaussian Splatting.
-        <p>
-          WIP
-        </p>
-      </li>
-      <li>
-        <strong>Zomdev</strong> - A decentralized bounty platform on the Sui blockchain that connects developers with projects through smart contract-powered transactions.
-        <p>
-          <a href="https://github.com/RevanthGundala/zomdev">GitHub</a> |
-          <a href="https://zomdev.com">Live Demo</a>
-        </p>
-      </li>
-      <li>
-        <strong>The Buildwork</strong> - A high-performance developer matching platform using AI-powered recommendations to connect talent with opportunities.
-        <p>
-          <a href="https://github.com/RevanthGundala/Builder-Connect">GitHub</a> |
-          <a href="https://thebuildwork.com">Live Demo (Deprecated)</a>
-        </p>
-      </li>
-      <li>
-        <strong>Glayze</strong> - A progressive web app enabling users to speculate on social media posts through an innovative bonding curve smart contract system.
-        <p>
-          <a href="https://github.com/RevanthGundala/glayze">GitHub</a> |
-          <a href="https://glayze.app">Live Demo</a>
-        </p>
-      </li>
-      <li>
-        <strong>AIFans</strong> - An interactive platform that allows users to create and chat with personalized AI companions using advanced language models and character customization.
-        <p>
-          <a href="https://github.com/RevanthGundala/aifans">GitHub</a>
-        </p>
-      </li>
-    </ul>
+    <main>
+      <p class="loading">Coming soon...</p>
+    </main>
 
-    <h2>Interests</h2>
-    <p>Outside of coding, I'm a big fan of podcasts, sports, gaming, and bjj. I'm currently reading The Theoretical Minimum, Quantum Mechanics by Leonard Susskind.</p>
+    <footer>
+      Last updated: January 27, 2025
+    </footer>
   </body>
 </html>
