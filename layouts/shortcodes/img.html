@@ -1,0 +1,35 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+{{ $captionPosition := .Get "caption-position" }}
+
+{{ $isExternal := or (hasPrefix $src "http://") (hasPrefix $src "https://") }}
+{{ $img := "" }}
+{{ $imgSrc := "" }}
+{{ $width := "" }}
+{{ $height := "" }}
+
+{{ if $isExternal }}
+  {{ $imgSrc = $src }}
+{{ else }}
+  {{ $img = .Page.Resources.GetMatch (printf "%s" ($src | safeURL)) }}
+  {{ if $img }}
+    {{ $imgSrc = $img.RelPermalink }}
+    {{ $width = $img.Width }}
+    {{ $height = $img.Height }}
+  {{ else }}
+    {{ $imgSrc = $src }}
+  {{ end }}
+{{ end }}
+
+<figure class='mb-5'>
+  <img src="{{ $imgSrc }}" {{ with $alt }} alt="{{ . }}" {{ end }} {{ if $width }} width="{{ $width }}" {{ end }} {{ if $height }} height="{{ $height }}" {{ end }} />
+  
+  {{ with $caption }}
+    <figcaption 
+      class='{{ if eq $captionPosition "center" }} flex justify-center {{ else if eq $captionPosition "end" }} flex justify-end {{ end }}'
+    >
+      {{ . }}
+    </figcaption>
+  {{ end }}
+</figure>

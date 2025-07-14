@@ -2,14 +2,10 @@ User-agent: *
 
 Disallow: /
 
-Disallow: /categories/
-
-Disallow: /categories/hello/
-
 Disallow: /posts/
 
-Disallow: /posts/where-are-the-apps-going/
-
 Disallow: /about/
+
+Disallow: /categories/
 
 Disallow: /tags/
