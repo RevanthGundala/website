@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Revanth Gundala</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Revanth Gundala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is AI taking my job?</title>
+      <link>http://localhost:1313/posts/is-ai-taking-my-job/</link>
+      <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
+      <guid>http://localhost:1313/posts/is-ai-taking-my-job/</guid>
+      <description>So I graduated a couple of months ago with an undergrad in CS and been applying to new grad roles for about ~1 year now and have gotten a few interviews but no offers.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hi, I&amp;rsquo;m Revanth I&amp;rsquo;m a new grad from ASU looking to do cool stuff in AI.</description>
+    </item>
+  </channel>
+</rss>

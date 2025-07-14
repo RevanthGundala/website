@@ -1,0 +1,23 @@
+{{ define "main" }} 
+
+<div class="flex flex-col gap-1">
+  <h3 class="title-large">{{ .Title }}</h3>
+</div>
+
+{{ with .Content }}
+  <section>{{ . }}</section>
+{{ end }}
+
+{{/* Show recent posts from the posts section */}}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ $recentPosts := first 10 $posts }}
+
+{{ if $recentPosts }}
+  <section class="flex flex-col gap-10">
+    {{ range $recentPosts }}
+      {{ partial "list/default" . }}
+    {{ end }}
+  </section>
+{{ end }}
+
+{{ end }} 
