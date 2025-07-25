@@ -3,6 +3,7 @@ draft = false
 hide_meta = true
 +++
 ### Hi, I'm Revanth
+I KNOW I NEED TO FIX THIS WEBSITE IT LOOKS BAD
 
 I'm a new grad from ASU currently interested in World Models. 
 
@@ -13,7 +14,7 @@ I'm a new grad from ASU currently interested in World Models.
 ### Rapid Fire ⚡
 
 **Top Movies:**  
-Interstellar, Oppenheimer, Ready Player One
+Interstellar, Oppenheimer, Ready Player One, Dune
 
 **Currently reading:**  
 Land is a big deal

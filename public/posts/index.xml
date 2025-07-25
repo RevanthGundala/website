@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Revanth Gundala</title><link>/posts/</link><description>Recent content in Posts on Revanth Gundala</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>{year}</copyright><lastBuildDate/><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Revanth Gundala</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on Revanth Gundala</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>{year}</copyright>
+    <lastBuildDate>Fri, 25 Jul 2025 09:16:45 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doomscrolling</title>
+      <link>//localhost:1313/posts/doomscrolling/</link>
+      <pubDate>Fri, 25 Jul 2025 09:16:45 +0000</pubDate>
+      <guid>//localhost:1313/posts/doomscrolling/</guid>
+      <description>Doomscrolling. I&amp;rsquo;ve done my fair share of it and continue to do so. I&amp;rsquo;m starting to wonder if it&amp;rsquo;s innate to human nature, or if there&amp;rsquo;s something we can do as a society to fix it, or if it can only be done on an individual level.</description>
+    </item>
+  </channel>
+</rss>
