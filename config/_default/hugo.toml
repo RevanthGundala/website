@@ -6,7 +6,7 @@ theme = 'enchanted-lowkey'
 title = 'Revanth Gundala'
 enableRobotsTXT = true
 summaryLength = 15
-paginate = 5
+pagerSize = 5
 
 
 [markup]

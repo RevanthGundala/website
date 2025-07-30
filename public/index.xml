@@ -4,24 +4,31 @@
     <title>Revanth Gundala</title>
     <link>//localhost:1313/</link>
     <description>Recent content on Revanth Gundala</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Fri, 25 Jul 2025 09:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 09:16:45 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We wanted cypherpunk, instead we got Fartcoin</title>
+      <link>//localhost:1313/posts/we-got-fartcoin/</link>
+      <pubDate>Wed, 30 Jul 2025 09:16:45 +0000</pubDate>
+      <guid>//localhost:1313/posts/we-got-fartcoin/</guid>
+      <description>&lt;p&gt;Blockchains&amp;rsquo; speed of growth has been disappointing. People thought Bitcoin, Ethereum, and other blockchains were going to be the next big movement in tech. We thought the internet and financial system would be rewritten by now. Unfortunately, there&amp;rsquo;s still a long way to go.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>On Doomscrolling</title>
       <link>//localhost:1313/posts/doomscrolling/</link>
       <pubDate>Fri, 25 Jul 2025 09:16:45 +0000</pubDate>
       <guid>//localhost:1313/posts/doomscrolling/</guid>
-      <description>Doomscrolling. I&amp;rsquo;ve done my fair share of it, and I will continue to do so. I&amp;rsquo;m starting to wonder if it&amp;rsquo;s innate to human nature, or if there&amp;rsquo;s something we can do as a society to fix it.</description>
+      <description>&lt;p&gt;Doomscrolling. I&amp;rsquo;ve done my fair share of it, and I will continue to do so. I&amp;rsquo;m starting to wonder if it&amp;rsquo;s innate to human nature, or if there&amp;rsquo;s something we can do as a society to fix it. While doomscrolling, I came across this David Foster Wallace &lt;a href=&#34;https://www.youtube.com/shorts/uks5oiojVjY&#34;&gt;clip&lt;/a&gt; predicting doomscrolling starting with TV and the invention of the remote. Obviously, it&amp;rsquo;s even easier to do now which makes it more addictive. In the future, maybe we will just be able to use our brain to scroll, and maybe we won&amp;rsquo;t even have a physical device. Maybe it&amp;rsquo;s just embedded into our visual cortex. What happens then?&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>Hi, I&amp;rsquo;m Revanth I KNOW I NEED TO FIX THIS WEBSITE IT LOOKS BAD&#xA;I&amp;rsquo;m a new grad from ASU currently interested in World Models.</description>
+      <description>&lt;h3 id=&#34;hi-im-revanth&#34;&gt;Hi, I&amp;rsquo;m Revanth&lt;/h3&gt;&#xA;&lt;p&gt;I KNOW I NEED TO FIX THIS WEBSITE IT LOOKS BAD&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a new grad from ASU currently interested in World Models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

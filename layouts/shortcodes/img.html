@@ -2,6 +2,7 @@
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
 {{ $captionPosition := .Get "caption-position" }}
+{{ $class := .Get "class" }}
 
 {{ $isExternal := or (hasPrefix $src "http://") (hasPrefix $src "https://") }}
 {{ $img := "" }}
@@ -23,7 +24,7 @@
 {{ end }}
 
 <figure class='mb-5'>
-  <img src="{{ $imgSrc }}" {{ with $alt }} alt="{{ . }}" {{ end }} {{ if $width }} width="{{ $width }}" {{ end }} {{ if $height }} height="{{ $height }}" {{ end }} />
+  <img src="{{ $imgSrc }}" {{ with $alt }} alt="{{ . }}" {{ end }} {{ if $width }} width="{{ $width }}" {{ end }} {{ if $height }} height="{{ $height }}" {{ end }} {{ with $class }} class="{{ . }}" {{ end }} />
   
   {{ with $caption }}
     <figcaption 

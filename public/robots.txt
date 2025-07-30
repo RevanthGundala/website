@@ -1,8 +1,10 @@
 User-agent: *
 
-Disallow: /posts/doomscrolling/
-
 Disallow: /posts/
+
+Disallow: /posts/we-got/
+
+Disallow: /posts/doomscrolling/
 
 Disallow: /
 
