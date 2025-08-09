@@ -2,14 +2,18 @@ User-agent: *
 
 Disallow: /posts/
 
-Disallow: /posts/we-got/
+Disallow: /posts/we-got-fartcoin/
 
 Disallow: /posts/doomscrolling/
 
 Disallow: /
 
-Disallow: /about/
+Disallow: /posts/making-world-models-multiplayer/
 
 Disallow: /categories/
+
+Disallow: /categories/hello/
+
+Disallow: /about/
 
 Disallow: /tags/

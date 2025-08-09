@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Wed, 30 Jul 2025 09:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Aug 2025 09:16:45 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can we make world models multiplayer?</title>
+      <link>//localhost:1313/posts/making-world-models-multiplayer/</link>
+      <pubDate>Fri, 08 Aug 2025 09:16:45 +0000</pubDate>
+      <guid>//localhost:1313/posts/making-world-models-multiplayer/</guid>
+      <description>&lt;p&gt;I am writing this post after the release of Google&amp;rsquo;s &lt;a href=&#34;https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/&#34;&gt;Genie 3&lt;/a&gt;. I recommend reading this &lt;a href=&#34;https://www.xunhuang.me/blogs/world_model.html&#34;&gt;blog post&lt;/a&gt; that gives a good overview of the current state of World Models.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>We wanted cypherpunk, instead we got Fartcoin</title>
       <link>//localhost:1313/posts/we-got-fartcoin/</link>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello on Revanth Gundala</title>
-    <link>http://localhost:37453/categories/hello/</link>
+    <link>//localhost:1313/categories/hello/</link>
     <description>Recent content in Hello on Revanth Gundala</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate>
-    <atom:link href="http://localhost:37453/categories/hello/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/hello/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Where are the apps going?</title>
-      <link>http://localhost:37453/posts/where-are-the-apps-going/</link>
+      <title>Can we make world models multiplayer?</title>
+      <link>//localhost:1313/posts/making-world-models-multiplayer/</link>
       <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
-      <guid>http://localhost:37453/posts/where-are-the-apps-going/</guid>
-      <description>So I graduated a couple of months ago with an undergrad in CS and been applying to new grad roles for about ~1 year now and have gotten a few interviews but no offers.</description>
+      <guid>//localhost:1313/posts/making-world-models-multiplayer/</guid>
+      <description>&lt;p&gt;I am writing this post after the release of Google&amp;rsquo;s &lt;a href=&#34;https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/&#34;&gt;Genie 3&lt;/a&gt;. I recommend reading this &lt;a href=&#34;https://www.xunhuang.me/blogs/world_model.html&#34;&gt;writeup&lt;/a&gt; that gives a good overview of the current state of World Models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

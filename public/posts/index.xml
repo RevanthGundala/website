@@ -7,13 +7,13 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
-    <lastBuildDate>Tue, 29 Jul 2025 09:16:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 09:16:45 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>We wanted decentralization, instead we got Fartcoin</title>
-      <link>//localhost:1313/posts/we-got/</link>
-      <pubDate>Tue, 29 Jul 2025 09:16:45 +0000</pubDate>
-      <guid>//localhost:1313/posts/we-got/</guid>
+      <title>We wanted cypherpunk, instead we got Fartcoin</title>
+      <link>//localhost:1313/posts/we-got-fartcoin/</link>
+      <pubDate>Wed, 30 Jul 2025 09:16:45 +0000</pubDate>
+      <guid>//localhost:1313/posts/we-got-fartcoin/</guid>
       <description>&lt;p&gt;Blockchains&amp;rsquo; speed of growth has been disappointing. People thought Bitcoin, Ethereum, and other blockchains were going to be the next big movement in tech. We thought the internet and financial system would be rewritten by now. Unfortunately, there&amp;rsquo;s still a long way to go.&lt;/p&gt;</description>
     </item>
     <item>
@@ -22,6 +22,13 @@
       <pubDate>Fri, 25 Jul 2025 09:16:45 +0000</pubDate>
       <guid>//localhost:1313/posts/doomscrolling/</guid>
       <description>&lt;p&gt;Doomscrolling. I&amp;rsquo;ve done my fair share of it, and I will continue to do so. I&amp;rsquo;m starting to wonder if it&amp;rsquo;s innate to human nature, or if there&amp;rsquo;s something we can do as a society to fix it. While doomscrolling, I came across this David Foster Wallace &lt;a href=&#34;https://www.youtube.com/shorts/uks5oiojVjY&#34;&gt;clip&lt;/a&gt; predicting doomscrolling starting with TV and the invention of the remote. Obviously, it&amp;rsquo;s even easier to do now which makes it more addictive. In the future, maybe we will just be able to use our brain to scroll, and maybe we won&amp;rsquo;t even have a physical device. Maybe it&amp;rsquo;s just embedded into our visual cortex. What happens then?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Can we make world models multiplayer?</title>
+      <link>//localhost:1313/posts/making-world-models-multiplayer/</link>
+      <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
+      <guid>//localhost:1313/posts/making-world-models-multiplayer/</guid>
+      <description>&lt;p&gt;I am writing this post after the release of Google&amp;rsquo;s &lt;a href=&#34;https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/&#34;&gt;Genie 3&lt;/a&gt;. I recommend reading this &lt;a href=&#34;https://www.xunhuang.me/blogs/world_model.html&#34;&gt;writeup&lt;/a&gt; that gives a good overview of the current state of World Models.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

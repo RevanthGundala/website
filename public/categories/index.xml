@@ -7,6 +7,14 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
+    <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>//localhost:1313/categories/hello/</link>
+      <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
+      <guid>//localhost:1313/categories/hello/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

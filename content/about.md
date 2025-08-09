@@ -14,7 +14,7 @@ I'm a new grad from ASU currently interested in World Models.
 ### Rapid Fire ⚡
 
 **Top Movies:**  
-Interstellar, Oppenheimer, Ready Player One, Dune
+Interstellar, Ready Player One, Dune
 
 **Currently reading:**  
 Land is a big deal
