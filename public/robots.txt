@@ -1,5 +1,7 @@
 User-agent: *
 
+Disallow: /posts/making-world-models-multiplayer/
+
 Disallow: /posts/
 
 Disallow: /posts/we-got-fartcoin/
@@ -8,11 +10,11 @@ Disallow: /posts/doomscrolling/
 
 Disallow: /
 
-Disallow: /posts/making-world-models-multiplayer/
-
 Disallow: /categories/
 
 Disallow: /categories/hello/
+
+Disallow: /posts/open-source/
 
 Disallow: /about/
 

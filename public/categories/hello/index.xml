@@ -10,11 +10,11 @@
     <lastBuildDate>Sat, 27 Aug 2022 09:16:45 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/categories/hello/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Can we make world models multiplayer?</title>
-      <link>//localhost:1313/posts/making-world-models-multiplayer/</link>
+      <title>Open source is broken</title>
+      <link>//localhost:1313/posts/open-source/</link>
       <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
-      <guid>//localhost:1313/posts/making-world-models-multiplayer/</guid>
-      <description>&lt;p&gt;I am writing this post after the release of Google&amp;rsquo;s &lt;a href=&#34;https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/&#34;&gt;Genie 3&lt;/a&gt;. I recommend reading this &lt;a href=&#34;https://www.xunhuang.me/blogs/world_model.html&#34;&gt;writeup&lt;/a&gt; that gives a good overview of the current state of World Models.&lt;/p&gt;</description>
+      <guid>//localhost:1313/posts/open-source/</guid>
+      <description>&lt;p&gt;How do we fix open source? Software is the only industry where we can just pull something off the shelf for free and directly use it in the products we make. This allows software to move extremely fast compared to the rest of the world. However, there&amp;rsquo;s obviously a lot of downsides to this.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
