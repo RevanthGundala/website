@@ -1,6 +1,6 @@
 ---
 title: "We wanted cypherpunk, instead we got Fartcoin"
-draft: false
+draft: true
 date: 2025-07-30T09:16:45.000Z
 description: "My thoughts on the missteps and slow growth of blockchains."
 # categories:

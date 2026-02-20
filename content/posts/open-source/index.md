@@ -1,6 +1,6 @@
 ---
 title: "Open source is broken"
-draft: false 
+draft: true 
 date: 2025-08-17T09:16:45.000Z
 description: "Some of my thoughts on the state of open-source"
 categories:

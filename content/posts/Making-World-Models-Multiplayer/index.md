@@ -1,6 +1,6 @@
 ---
 title: "Can we make world models multiplayer?"
-draft: false 
+draft: true 
 date: 2025-08-08T09:16:45.000Z
 description: "Some of my thoughts on recent developments of world models and speculations of where it might lead."
 categories:

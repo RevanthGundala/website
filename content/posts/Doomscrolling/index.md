@@ -1,6 +1,6 @@
 ---
 title: "On Doomscrolling"
-draft: false
+draft: true
 date: 2025-07-25T09:16:45.000Z
 description: "My thoughts on doomscrolling and consumption culture"
 # categories:

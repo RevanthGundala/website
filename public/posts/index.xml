@@ -2,40 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Revanth Gundala</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Revanth Gundala</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <copyright>{year}</copyright>
-    <lastBuildDate>Fri, 08 Aug 2025 09:16:45 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Feb 2026 09:16:45 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Can we make world models multiplayer?</title>
-      <link>//localhost:1313/posts/making-world-models-multiplayer/</link>
-      <pubDate>Fri, 08 Aug 2025 09:16:45 +0000</pubDate>
-      <guid>//localhost:1313/posts/making-world-models-multiplayer/</guid>
-      <description>&lt;p&gt;I am writing this post after the release of Google&amp;rsquo;s &lt;a href=&#34;https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/&#34;&gt;Genie 3&lt;/a&gt;. I recommend reading this &lt;a href=&#34;https://www.xunhuang.me/blogs/world_model.html&#34;&gt;blog post&lt;/a&gt; that gives a good overview of the current state of World Models.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>We wanted cypherpunk, instead we got Fartcoin</title>
-      <link>//localhost:1313/posts/we-got-fartcoin/</link>
-      <pubDate>Wed, 30 Jul 2025 09:16:45 +0000</pubDate>
-      <guid>//localhost:1313/posts/we-got-fartcoin/</guid>
-      <description>&lt;p&gt;Blockchains&amp;rsquo; speed of growth has been disappointing. People thought Bitcoin, Ethereum, and other blockchains were going to be the next big movement in tech. We thought the internet and financial system would be rewritten by now. Unfortunately, there&amp;rsquo;s still a long way to go.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>On Doomscrolling</title>
-      <link>//localhost:1313/posts/doomscrolling/</link>
-      <pubDate>Fri, 25 Jul 2025 09:16:45 +0000</pubDate>
-      <guid>//localhost:1313/posts/doomscrolling/</guid>
-      <description>&lt;p&gt;Doomscrolling. I&amp;rsquo;ve done my fair share of it, and I will continue to do so. I&amp;rsquo;m starting to wonder if it&amp;rsquo;s innate to human nature, or if there&amp;rsquo;s something we can do as a society to fix it. While doomscrolling, I came across this David Foster Wallace &lt;a href=&#34;https://www.youtube.com/shorts/uks5oiojVjY&#34;&gt;clip&lt;/a&gt; predicting doomscrolling starting with TV and the invention of the remote. Obviously, it&amp;rsquo;s even easier to do now which makes it more addictive. In the future, maybe we will just be able to use our brain to scroll, and maybe we won&amp;rsquo;t even have a physical device. Maybe it&amp;rsquo;s just embedded into our visual cortex. What happens then?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Open source is broken</title>
-      <link>//localhost:1313/posts/open-source/</link>
-      <pubDate>Sat, 27 Aug 2022 09:16:45 +0000</pubDate>
-      <guid>//localhost:1313/posts/open-source/</guid>
-      <description>&lt;p&gt;How do we fix open source? Software is the only industry where we can just pull something off the shelf for free and directly use it in the products we make. This allows software to move extremely fast compared to the rest of the world. However, there&amp;rsquo;s obviously a lot of downsides to this.&lt;/p&gt;</description>
+      <title>Trying to Make a VLA Its Own Reward Model</title>
+      <link>/posts/trying-to-make-a-vla-its-own-reward-model/</link>
+      <pubDate>Thu, 19 Feb 2026 09:16:45 +0000</pubDate>
+      <guid>/posts/trying-to-make-a-vla-its-own-reward-model/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Code: &lt;a href=&#34;https://github.com/revanthgundala/siglip-grpo&#34;&gt;GitHub&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;figure&gt;&#xA;  &lt;img src=&#34;task0_ep1_success.gif&#34; alt=&#34;Successful robot trajectory&#34; loading=&#34;lazy&#34;&gt;&#xA;  &lt;figcaption&gt;A successful pick-and-place trajectory in LIBERO (reward: 1.0).&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;the-idea&#34;&gt;The idea&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2511.15605&#34;&gt;SRPO&lt;/a&gt; showed that a robot policy can improve itself by watching its own attempts. Starting at 48.9% success on LIBERO manipulation tasks, OpenVLA climbs to &lt;strong&gt;99.2%&lt;/strong&gt; through self-play. The trick is using &lt;a href=&#34;https://ai.meta.com/blog/v-jepa-2-video-understanding-model/&#34;&gt;V-JEPA 2&lt;/a&gt; — a 1.1B-parameter video encoder — to score how close each failure was to success. Near-misses get more reward than total failures, and the policy learns from that gradient via GRPO.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
