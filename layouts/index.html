@@ -4,12 +4,12 @@
   {{ range $posts }}
   <article class="post-item">
     <a href="{{ .Permalink }}">
+      <h2>{{ .Title }}</h2>
+      <p class="post-desc">{{ .Description | default .Summary }}</p>
       {{ $coverName := .Params.cover }}
       {{ with .Resources.GetMatch (default "" $coverName) }}
       <img src="{{ .RelPermalink }}" alt="Post preview" class="post-cover" />
       {{ end }}
-      <h2>{{ .Title }}</h2>
-      <p class="post-desc">{{ .Description | default .Summary }}</p>
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
     </a>
   </article>

@@ -131,9 +131,9 @@ a:hover {
 }
 
 .post-cover {
-  width: 100%;
+  max-width: 360px;
   border-radius: 8px;
-  margin-bottom: 0.75rem;
+  margin: 0.5rem 0;
 }
 
 .post-item time {
