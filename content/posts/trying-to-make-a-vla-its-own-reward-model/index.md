@@ -1,7 +1,7 @@
 ---
 title: "Trying to Make a VLA Its Own Reward Model"
 
-draft: false
+draft: true
 date: 2026-02-19T09:16:45.000Z
 description: "We tried replacing SRPO's 1.1B-parameter V-JEPA with the VLA's own SigLIP encoder. Here's what we learned."
 cover: "task0_ep1_success.gif"

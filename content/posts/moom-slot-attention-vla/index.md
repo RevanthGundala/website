@@ -1,6 +1,6 @@
 ---
 title: "Compressing Robot Vision into 8 Objects"
-draft: false
+draft: true
 date: 2026-03-05T00:00:00.000Z
 description: "We replaced 256 visual patch tokens with 8 learned object slots and trained a robot VLA from scratch. Slot compression improved training efficiency by 11%."
 cover: "task3_ep0_success.gif"
